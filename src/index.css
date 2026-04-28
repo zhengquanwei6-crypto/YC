@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #8B5CF6;
+  --color-brand-secondary: #EC4899;
+  --color-brand-accent: #22D3EE;
+  
+  --color-mobile-bg: #090A16;
+  --color-mobile-surface: #121426;
+  --color-mobile-card: #191B33;
+  --color-mobile-elevated: #202444;
+  
+  --color-admin-bg: #F5F6FB;
+  --color-admin-sidebar: #090A16;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
+/* Hide scrollbars for a cleaner mobile app feel */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

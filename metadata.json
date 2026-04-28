@@ -1,0 +1,13 @@
+{
+  "name": "RoleNest AI",
+  "description": "An immersive AI companionship platform featuring character cultivation, AI image generation, and a powerful SaaS admin backend for role management and model configuration.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "AI Chat",
+    "Image Generation",
+    "Admin Dashboard"
+  ]
+}
